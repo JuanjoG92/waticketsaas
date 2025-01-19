@@ -96,7 +96,7 @@ const App = () => {
         const browserLocale =
             i18nlocale.substring(0, 2) + i18nlocale.substring(3, 5);
 
-        if (browserLocale === "ptBR") {
+        if (browserLocale === "es" || browserLocale === "es-ES") {
             setLocale(ptBR);
         }
     }, []);
